@@ -1,0 +1,42 @@
+.popup-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 45px;
+  border: 1px solid red;
+  border-radius: 3px;
+  padding: 8px;
+  cursor: pointer;
+  width: 190px;
+}
+.popup-li-item {
+  list-style: none;
+}
+.popup-list {
+  visibility: hidden;
+  position: absolute;
+  list-style: none;
+  left: 210px;
+  top: -6px;
+  width: 110px;
+  background-color: rgb(47, 47, 47);
+  z-index: 2;
+  padding: 10px;
+  border-radius: 10px;
+}
+.show {
+  animation: ani 0.8s forwards;
+  visibility: visible;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+@keyframes ani {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,71 @@
+.finder-input {
+  width: 350px;
+  height: 60px;
+  padding-left: 5px;
+  background: transparent;
+  border: 1px solid #f6f6f27b;
+  border-radius: 5px;
+  color: #fff;
+}
+.push-input {
+  width: 100%;
+  height: 45px;
+  padding-left: 5px;
+  background-color: #f7f7f714;
+  border: 1px solid #f6f6f27b;
+  border-radius: 5px;
+  color: #fff;
+}
+.icon-input-position {
+  position: relative;
+}
+.icon-input-position span {
+  position: absolute;
+  top: 30%;
+  left: 85%;
+}
+.new-moder {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid;
+  border-radius: 8px;
+  background-color: transparent;
+  border-color: #424242;
+  color: rgba(255, 255, 255, 0.85);
+}
+::placeholder {
+  font-size: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.text-area-input {
+  margin-top: 10px;
+  width: 100%;
+  height: 250px;
+  padding-left: 5px;
+  background-color: #f7f7f714;
+  border: 1px solid #f6f6f27b;
+  border-radius: 5px;
+  color: #fff;
+  padding: 15px 0 0 10px;
+}
+.label {
+  margin: 5px 0 5px;
+  font-size: 15px;
+  color: #f6f6f27b;
+}
+.red-error {
+  font-size: 12px;
+  color: red;
+}
+.transiton {
+  transform: translate(410px, 8px);
+}
+@media (max-width: 767px) {
+  .finder-input {
+    width: 100%;
+  }
+  .transiton {
+    transform: translate(160px, 44px);
+  }
+}

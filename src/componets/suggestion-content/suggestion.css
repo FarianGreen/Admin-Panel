@@ -1,0 +1,17 @@
+.control-tools {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 15px;
+  align-items: center;
+  margin: 15px 0 10px 0;
+}
+@media (max-width: 767px) {
+  .suggest-page {
+    width: 100%;
+  }
+  .control-tools {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

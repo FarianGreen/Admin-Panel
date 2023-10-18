@@ -1,25 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useNavigate } from "react-router-dom";
+import { Header } from "./componets/header";
+import { NavMenu } from "./componets/menu";
+import { useAppSelector } from "./app/hooks";
+import { useEffect } from "react";
 
 function App() {
+  const logined = useAppSelector((state) => state.auth.isLogined);
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (!logined) {
+      navigate("/login");
+    }
+  }, [navigate, logined]);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="wrapper">
+        <Header />
+        <NavMenu />
+      </div>
+    </>
   );
 }
 

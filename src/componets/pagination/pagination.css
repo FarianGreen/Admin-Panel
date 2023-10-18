@@ -1,0 +1,22 @@
+.pagination {
+  display: flex;
+  gap: 5px;
+}
+.pagination-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  list-style: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+}
+.pagination-number:hover {
+  background-color: red;
+}
+.pagination-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}

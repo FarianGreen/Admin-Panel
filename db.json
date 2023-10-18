@@ -1,0 +1,116 @@
+{
+  "suggestions": [
+    {
+      "id": 1,
+      "user": "Rada",
+      "about": "Lorem ipsum dolor sit amet.",
+      "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, dignissimos!",
+      "date": "15.06.23",
+      "status": "Reject"
+    },
+    {
+      "id": 2,
+      "user": "Brus",
+      "about": "Lorem ipsum dolor sit amet.",
+      "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, dignissimos!",
+      "date": "15.06.23",
+      "status": "Processing"
+    },
+    {
+      "id": 3,
+      "user": "Leha",
+      "about": "Lorem ipsum dolor sit amet.",
+      "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "date": "15.06.23",
+      "status": "Done"
+    },
+    {
+      "id": 4,
+      "user": "Victor",
+      "about": "Lorem ipsum dolor sit amet.",
+      "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, dignissimos!",
+      "date": "15.06.23",
+      "status": "Reject"
+    }
+  ],
+  "moderators": [
+    {
+      "id": 1,
+      "user": "Andrey",
+      "theme": "Привет ",
+      "message": "Андрей",
+      "current": "Остановлен"
+    },
+    {
+      "id": 2,
+      "user": "Boris",
+      "theme": "Make a Portal",
+      "message": "Boris can make a portal",
+      "current": "Остановлен"
+    },
+    {
+      "id": 3,
+      "user": "Dan",
+      "theme": "",
+      "message": "",
+      "current": "Назначен"
+    },
+    {
+      "id": 4,
+      "user": "Wick",
+      "theme": "",
+      "message": "",
+      "current": "Назначен"
+    },
+    {
+      "id": 5,
+      "user": "Antony",
+      "theme": "",
+      "message": "",
+      "current": "Удален"
+    },
+    {
+      "user": "Magnifico",
+      "theme": "Тема сообщения ",
+      "message": "Такова",
+      "current": "Назначен",
+      "id": 6
+    },
+    {
+      "user": "marro",
+      "theme": "",
+      "message": "",
+      "current": "Назначен",
+      "id": 7
+    },
+    {
+      "user": "Ivan",
+      "theme": "",
+      "message": "",
+      "current": "Удален",
+      "id": 8
+    }
+  ],
+  "systemMessages": [
+    {
+      "id": 1,
+      "text": "Это надо перенести в State?"
+    },
+    {
+      "id": 2,
+      "text": "Сделай адаптив"
+    },
+    {
+      "id": 3,
+      "text": "Wake up to Reality"
+    }
+  ],
+  "users": [
+    {
+      "email": "admin@mail.com",
+      "password": "$2a$10$x/GWgl44bNRqq4k.X9nWSewAlXXro0ldIWTAcdT8H.Hv.F40FRVPm",
+      "login": "admin",
+      "id": 1
+    }
+  ]
+}

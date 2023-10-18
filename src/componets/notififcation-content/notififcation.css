@@ -1,0 +1,81 @@
+.paragraph {
+  color: #f6f6f27b;
+  margin: 5px 0 5px;
+}
+.system-alert {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding-right: 5px;
+  align-items: center;
+  border-radius: 5px;
+  height: 40px;
+  border: 1px solid #f6f6f27b;
+  background-color: transparent;
+  color: #fff;
+}
+.alert-list {
+  cursor: pointer;
+  position: absolute;
+  transition: 0.6s;
+  transform: translateY(-50px);
+  opacity: 0;
+  visibility: hidden;
+  margin-top: 5px;
+  list-style: none;
+  padding: 10px;
+  background-color: #2d2d2d;
+  width: 100%;
+  border-radius: 8px;
+}
+.alert-list__li {
+  cursor: pointer;
+}
+.alert-list__li:hover {
+  background-color: rgb(146, 146, 146);
+}
+.notice-drop {
+  position: relative;
+  margin: 20px 0 20px;
+}
+.isActive {
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+}
+.recipients-wrapper {
+  max-width: 165px;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px 5px 10px;
+  border-radius: 8px;
+  border: 1px solid red;
+}
+.recipients-container {
+  display: flex;
+  gap: 10px;
+}
+.form-conatiner {
+  margin-top: 10px;
+  width: 100%;
+}
+.btn-form-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.recipients-wrapper span {
+  cursor: pointer;
+}
+.notififcation-errormodal {
+  position: absolute;
+  top: 6rem;
+  width: 90%;
+}
+@media (max-width: 767px) {
+  .notice-page {
+    width: 100%;
+  }
+}

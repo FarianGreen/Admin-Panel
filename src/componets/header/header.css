@@ -1,0 +1,34 @@
+.header-wrapper {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 10px 50px 10px 50px;
+  background-color: #303030;
+  z-index: 2;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo {
+  object-fit: cover;
+  width: 80px;
+  border-radius: 50%;
+}
+.header-user__group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+@media (max-width: 767px) {
+  .header-wrapper {
+    padding: 10px 10px 10px 10px;
+  }
+}
